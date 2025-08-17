@@ -1,4 +1,4 @@
-# Gemini CLI - Full-Stack Developer Profile
+# Gemini CLI - Expert Developer Profiles
 
 This repository contains configuration files to customize the Gemini CLI to act as an expert developer for various languages and frameworks.
 
