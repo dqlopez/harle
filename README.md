@@ -34,8 +34,12 @@ Harle's prompts go far beyond basic configuration. They encode:
 ## Available Expert Prompts
 
 - [`javascript/node-ts-fastify.md`](./javascript/node-ts-fastify.md):
-  - Full-stack TypeScript/Node.js/Fastify expert prompt
-  - Includes React, testing, and deployment guidance
+	- Full-stack TypeScript/Node.js/Fastify expert prompt
+	- Includes React, testing, and deployment guidance
+
+- [`javascript/nextjs-ts.md`](./javascript/nextjs-ts.md):
+	- Next.js & TypeScript specialist prompt
+	- Covers App Router, Pages Router, advanced type safety, performance, SEO, security, and deployment for modern React applications
 
 ## Customization
 
