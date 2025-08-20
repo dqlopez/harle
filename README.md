@@ -1,26 +1,50 @@
-# Gemini CLI - Expert Developer Profiles
+# Harle: Expert Developer Prompts for Gemini CLI
 
-This repository contains configuration files to customize the Gemini CLI to act as an expert developer for various languages and frameworks.
+> This repository provides advanced, opinionated prompts for configuring the Gemini CLI as an expert developer—specializing in TypeScript, Node.js, Fastify, and modern web development.
+
+## Overview
+
+Harle's prompts go far beyond basic configuration. They encode:
+
+- **TypeScript mastery** (strict typing, advanced generics, branded types, domain modeling)
+- **Modern JavaScript expertise** (ES2024+, async patterns, performance, security)
+- **Enterprise Node.js/Server patterns** (Fastify, observability, error handling, DDD, Clean Architecture)
+- **Testing, documentation, and CI/CD best practices**
+- **A communication philosophy**: Explain-first, clarify requirements, discuss trade-offs, and always document the "why"
 
 ## How to Use
 
-1.  **Copy the configuration file:** Copy the `javascript-typescript.md` file to the root of your project.
-2.  **Rename the file:** Rename the file to `GEMINI.md`.
+1. **Choose a prompt:**
+	- For Node.js/TypeScript/Fastify, use [`javascript/node-ts-fastify.md`](./javascript/node-ts-fastify.md)
+2. **Copy and rename:**
+	- Copy the desired file to your project root as `GEMINI.md`
+3. **Customize:**
+	- Edit `GEMINI.md` to match your stack, coding standards, and workflow
+4. **Activate:**
+	- The Gemini CLI will now use your expert prompt for all interactions
 
-Once you have this `GEMINI.md` file in your project, the Gemini CLI will automatically use it to provide you with more customized and higher-quality results, tailored to the best practices of modern web development.
+## What Makes These Prompts Different?
 
-## What's Inside
+- **Explain-First Approach:** Every solution starts with analysis, trade-offs, and rationale—not just code
+- **Strict Quality Standards:** TypeScript strict mode, advanced typing, robust error handling, and security by default
+- **Modern Architecture:** DDD, Clean/Hexagonal, CQRS, microservices, and event-driven patterns
+- **Comprehensive Testing:** TDD, property-based, contract, performance, and accessibility testing
+- **Production-Ready Guidance:** CI/CD, observability, containerization, and deployment best practices
 
-The `GEMINI.md` file contains a detailed prompt that instructs the Gemini CLI on how to behave and respond. It includes:
+## Available Expert Prompts
 
-*   **Core Expertise:** Defines the AI's proficiency in TypeScript and JavaScript.
-*   **Output Standards:** Sets the quality standards for code, architecture, and documentation.
-*   **Framework-Specific Guidelines:** Provides guidance for Node.js, React, and testing.
-*   **Development Workflow:** Outlines best practices for code organization, error handling, and security.
+- [`javascript/node-ts-fastify.md`](./javascript/node-ts-fastify.md):
+  - Full-stack TypeScript/Node.js/Fastify expert prompt
+  - Includes React, testing, and deployment guidance
 
 ## Customization
 
-You can and should customize the `GEMINI.md` file to match your project's specific needs, coding style, and technology stack. This will further improve the quality of the results you get from the Gemini CLI.
+These prompts are designed to be edited! Tweak them for your:
+
+- Frameworks (e.g., Express, Koa, Vue, Svelte)
+- Coding style and conventions
+- Team workflow and review process
+- Security, testing, and deployment requirements
 
 ## License
 
